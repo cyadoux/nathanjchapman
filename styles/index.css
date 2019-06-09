@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Upright|Cormorant');
 
 html {
-	font-size: 22px;
+	font-size: 26px;
 }
 
 body {
@@ -51,7 +51,7 @@ footer {
 
 @media all and (max-width: 500px) {
 	html {
-		font-size: 17px;
+		font-size: 20px;
 	}
 	body {
 		line-height: 1.7;
