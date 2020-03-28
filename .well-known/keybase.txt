@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/nathanchapman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nathanjchapman.com
+  * I am nathanchapman (https://keybase.io/nathanchapman) on keybase.
+  * I have a public key with fingerprint 7C57 6EF6 0712 E5EC 2FBF  5BFA 528A C23B D730 682C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101763b87b687e17a47e95b2e0f9e3d852039496587d5f3a8002a243601bfa6d6530a",
+      "fingerprint": "7c576ef60712e5ec2fbf5bfa528ac23bd730682c",
+      "host": "keybase.io",
+      "key_id": "528ac23bd730682c",
+      "kid": "0101763b87b687e17a47e95b2e0f9e3d852039496587d5f3a8002a243601bfa6d6530a",
+      "uid": "d9010c0c868505a8f51883b7fe70a719",
+      "username": "nathanchapman"
+    },
+    "service": {
+      "hostname": "nathanjchapman.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1585366419,
+  "expire_in": 157680000,
+  "prev": "d8f93d36cefe00bdcc45ac4ed577c8484c09bc4dd0c883e5c04e74b21da46642",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltIFUEYPscMzTDsJkGIuUUUnXT2Mjuzx4gsy0hI6MEwq8PM7Kxn87h72rPa
+1R6kqAy6PkQpERVdqIe0iILoBvmQFCJRFGk3AiMzulCkRc1KPgQ99jTM/3/f93/f
+z78/e1QoM7yi+U7xYxCPhDvf0tDabXePbJGoa26SolukWj788ITJU36s1jalqARk
+ICNdpRhRHSMuI6IhbkCqcGAZXDUxVIBqaIYOMTKhpRIMgEIUTdWBTC2imzpUAZEi
+kmU7NdxLerbjC1nEINK5pQMkKxxypljUggIPFUyYolITqUDHChPEuJsKGMIcJSle
+aLuiJj6xYXv/wP9n3/XDcqYhBBlgWMcQQIItKGOsUmRxBAiSjQCY4p5D6rhAO8SP
+E4fFSbKOOFJjRBKtBpvxYLtBnL9g6/7gCplbJ2SSnuu7zE2Iftz3k6lowPc3JQPC
+Bk5jf6Ri1HZMsVLBaOBeynYdKSoLJPPtQFuGGKq6rslGROIbk7bHY3aAEFsXQQEI
+5nDWECTDlqGaqs64xQGgJmMaJEzjJkSIYQ1rDBiUaaYpwmOVQwY0jjSqyCbRxABF
+CtKtd1wpqgifpEZIpuwaEa3e41Jj1u6wmh4KZ4bycgvSt650vmZMeNNfdLN6cOQM
+R6cFNxjKGpMzUvlwKOPX0vrWk93VL89KS17SxKM1Zcdz+gd6e1Zdfjbv6sMDn15U
+PTi65v3H0mOosnLqzJamJ97Q5ry9iZbW2fxMnzOU21yW1zA3/HlK/F7iW/fF5zN6
+7GnHikjbLSf/x57K0DtWPr26L7IYlXRPLvXnZbZnJ8aeOOPPv9A5dGOSVp5q2ZWV
+z7Vl58fuWzipsaMj90vxzyulC5STc6yCRd0Hl59b/L1PupPWpV+YyJuv9VZculqQ
+169tbv/VtbqkvSbr8P6Kc/2fIM6ff3z7uO9prxfJ7ftw6+mpoelf6kbfb9u7MftV
+bPzts1W1TeUeva7NanJ2ZGbrJbmFtn5lcKBx4GnGToef+g0=
+=DNgy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nathanchapman
+
+==================================================================
+
