@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Upright|Cormorant');
+
+@font-face {
+	font-family: 'IM Fell English';
+	src: url('../fonts/im_fell_english/imfellenglish-italic-webfont.woff2') format('woff2'),
+		 url('../fonts/im_fell_english/imfellenglish-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: 'IM Fell English';
+	src: url('../fonts/im_fell_english/imfellenglish-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/im_fell_english/imfellenglish-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
 
 html {
 	font-size: 26px;
@@ -6,7 +23,7 @@ html {
 
 body {
 	background-color: white;
-	font-family: 'Cormorant', sans-serif;
+	font-family: 'IM Fell English', sans-serif;
 	font-weight: 400;
 	line-height: 1.45;
 	color: #333;
@@ -28,7 +45,7 @@ a {
 h1, h2, h3, h4, h5 {
 	font-size: 1.75em;
 	margin: 2.75rem 0 1rem;
-	font-family: 'Cormorant Upright', sans-serif;
+	font-family: 'IM Fell English', sans-serif;
 	font-weight: 700;
 	line-height: 1.15;
 }
