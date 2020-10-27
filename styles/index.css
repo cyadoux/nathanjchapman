@@ -1,76 +1,90 @@
-
-@font-face {
-	font-family: 'IM Fell English';
-	src: url('../fonts/im_fell_english/imfellenglish-italic-webfont.woff2') format('woff2'),
-		 url('../fonts/im_fell_english/imfellenglish-italic-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: italic;
-
-}
-
-@font-face {
-	font-family: 'IM Fell English';
-	src: url('../fonts/im_fell_english/imfellenglish-regular-webfont.woff2') format('woff2'),
-		 url('../fonts/im_fell_english/imfellenglish-regular-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
+@import url(https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap);
 
 html {
-	font-size: 26px;
+	font-size: 1.5em;
 }
 
 body {
-	background-color: white;
-	font-family: 'IM Fell English', sans-serif;
-	font-weight: 400;
-	line-height: 1.45;
-	color: #333;
-
-	max-width: 64ch;
-	margin: 0 auto;
-	padding-left: 1em;
-	padding-right: 1em;
+    max-width: 1024px;
+    margin: 3em auto;
+    padding: 0 3em;
+    background-color: #c1c2c0;
+    color: #323834;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
 }
 
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/* Text Elements */
+
 p {
-	margin-bottom: 1.25em;
+    margin-bottom: 1.15rem;
+}
+h1, h2, h3, h4, h5 {
+    /*margin: 2.75rem 0 1.05rem;*/
+    margin: 0 0 1.05rem;
+    font-weight: 800;
+    line-height: 1.15;
+}
+h1 {
+    margin-top: 0;
+    font-size: 2.488em;
+}
+h2 {
+    font-size: 2.074em;
+}
+h3 {
+    font-size: 1.728em;
+}
+h4 {
+    font-size: 1.44em;
+}
+h5 {
+    font-size: 1.2em;
+}
+small {
+    font-size: 0.833em;
 }
 
 a {
-	color: #333;
+    color: #843733;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
-h1, h2, h3, h4, h5 {
-	font-size: 1.75em;
-	margin: 2.75rem 0 1rem;
-	font-family: 'IM Fell English', sans-serif;
-	font-weight: 700;
-	line-height: 1.15;
+section {
+    padding: 1em;
+    background-color: #ebebea;
+    border: 1px solid #bdc3c7;
+    box-shadow: 0 0 4px #bdc3c7;
+    margin-bottom: 1.3em;
+ 
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
-h1 {
-	margin-top: 0;
-	/*font-size: 3.052em;*/
+.albums-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 
-small {
-	font-size: 0.8em;
+iframe {
+	margin-top: 1em;
+	border: 0;
+	height: 350px;
+	width: 350px;
 }
 
 
 header,
 footer {
 	text-align: center;
-}
-
-
-@media all and (max-width: 500px) {
-	html {
-		font-size: 20px;
-	}
-	body {
-		line-height: 1.7;
-	}
 }
