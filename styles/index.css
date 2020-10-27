@@ -6,7 +6,7 @@ html {
 
 body {
     max-width: 1024px;
-    margin: 3em auto;
+    margin: 1em auto;
     padding: 0 3em;
     background-color: #c1c2c0;
     color: #323834;
@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5 {
     line-height: 1.15;
 }
 h1 {
-    margin-top: 0;
     font-size: 2.488em;
 }
 h2 {
@@ -56,6 +55,10 @@ a {
     color: #843733;
     cursor: pointer;
     white-space: nowrap;
+}
+
+nav {
+	margin: 0 0 1.05rem;
 }
 
 section {
@@ -87,4 +90,22 @@ iframe {
 header,
 footer {
 	text-align: center;
+}
+
+
+@media all and (max-width: 500px) {
+	body {
+		margin: 0;
+		padding: 3em 0;
+	}
+	header {
+		padding: 0 1em;
+		flex-flow: column;
+		justify-content: space-around;
+	}
+	main h1 {
+		padding-left: 1rem;
+	}
+	section {
+	}
 }
