@@ -73,7 +73,7 @@ section {
             box-sizing: border-box;
 }
 
-.albums-list {
+.albums-list, .website-list {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -84,6 +84,27 @@ iframe {
 	border: 0;
 	height: 400px;
 	width: 400px;
+}
+
+.website-list__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.website-list__item img {
+    border: 1px solid #c1c2c0;
+}
+
+@media all and (max-width: 1000px) {
+    .website-list {
+        justify-content: space-around;
+    }
+    .website-list__item {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
 }
 
 
@@ -106,6 +127,8 @@ footer {
 	main h1 {
 		padding-left: 1rem;
 	}
-	section {
-	}
+	.website-list__item {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
 }
