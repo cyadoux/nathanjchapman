@@ -13,14 +13,15 @@
 	<meta content="websites, web design, custom, simple, fast, clean, html, css, javascript, designer, writer" name="keywords">
 
 	<link href="/styles/normalize.css" rel="stylesheet">
-	<link href="/styles/index.css" rel="stylesheet">
+	<link href="/styles/index.css?v=2" rel="stylesheet">
 </head>
 <body>
 <header>
 	<h4>Nathan Chapman</h4>
 	<nav>
 		<a href="/">Music</a> /
-		<a href="/websites">Websites</a>
+		<a href="/websites">Websites</a> /
+		<a href="/school">School</a>
 	</nav>
 </header>
 
@@ -37,62 +38,146 @@
 		<section>
 			<h3>Websites</h3>
 			<div class="website-list">
+				<a class="website-list__item" href="https://blog.monolithofminds.com/">
+					<img src="/images/website_mom.png">
+					Monolith of Minds Blog
+				</a>
 				<a class="website-list__item" href="https://aylafavati.com/">
-					Ayla Favati
 					<img src="/images/website_favati.png">
+					Ayla Favati
 				</a>
 				<a class="website-list__item" href="https://jhcillustration.com/">
-					JHC Illustration
 					<img src="/images/website_jhc.png">
+					JHC Illustration
 				</a>
 				<a class="website-list__item" href="https://jjayberthumemusic.com/">
-					JJay Berthume Music
 					<img src="/images/website_berthume.png">
+					JJay Berthume Music
 				</a>
 				<a class="website-list__item" href="http://wallyworks.net/">
-					Wallyworks Construction
 					<img src="/images/website_wallyworks.png">
+					Wallyworks Construction
 				</a>
 				<a class="website-list__item" href="https://owlsprit.nathanjchapman.com/">
-					Owl Sprit Cafe
 					<img src="/images/website_owlsprit.png">
+					Owl Sprit Cafe
 				</a>
 				<a class="website-list__item" href="https://bltc.nathanjchapman.com/">
-					Better Living Coffee
 					<img src="/images/website_bltc.png">
+					Better Living Coffee
 				</a>
 				<a class="website-list__item" href="http://ptdefense.com/">
-					PT Defense
 					<img src="/images/website_ptdefense.png">
+					PT Defense
 				</a>
 				<a class="website-list__item" href="http://jac.nathanjchapman.com/">
-					JAC Defenders
 					<img src="/images/website_jac.png">
+					JAC Defenders
 				</a>
 			</div>
 		</section>
 		<section>
 			<h3>Web Apps</h3>
-			<h4>Workroom</h4>
-			<p>Timecards and labor tracking</p>
-			<img src="/images/workroom_01.png">
-			<img src="/images/workroom_02.png">
-			<img src="/images/workroom_03.png">
-			<img src="/images/workroom_04.png">
-			<hr>
-			<h4>Workdesk</h4>
+			<dl>
+				<dd>
+					<a href="#btech-time-tracker">BTech Time Tracker</a>
+				</dd>
+				<dd>
+					<a href="#workdesk">Workdesk</a>
+				</dd>
+				<dd>
+					<a href="#btech-cna-charting">BTech CNA Charting</a>
+				</dd>
+				<dd>
+					<a href="#workroom">Workroom</a>
+				</dd>
+			</dl>
+			<h4 id="btech-time-tracker">BTech Time Tracker</h4>
+			<p>Track and manage sessions</p>
+			<figure>
+				<img src="/images/time_home.png">
+				<figcaption>Welcome page</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/time_profile.png">
+				<figcaption>Student profile and recent activity</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/time_log.png">
+				<figcaption>Past sessions (pagination)</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/time_scan.png">
+				<figcaption>Scan a QR code to clock in</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/time_instructor.png">
+				<figcaption>Instructor home page shows activity for department</figcaption>
+			</figure>
+
+			<h4 id="workdesk">Workdesk</h4>
 			<p>Shift assignments and preferences</p>
-			<img src="/images/workdesk_01.png">
-			<img src="/images/workdesk_02.png">
-			<img src="/images/workdesk_03.png">
-			<img src="/images/workdesk_04.png">
+			<figure>
+				<img src="/images/wd_home.png">
+				<figcaption>All shifts</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/wd_filter.png">
+				<figcaption>Type to filter shifts</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/wd_detail.png">
+				<figcaption>See employee details</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/wd_sort.png">
+				<figcaption>Employee can sort their shift preferences</figcaption>
+			</figure>
+
+			<h4 id="btech-cna-charting">BTech CNA Charting</h4>
+			<p>Certified Nurse Assistant Charting Application</p>
+			<figure>
+				<img src="/images/cna_form.png" alt="">
+				<figcaption>Easily input the chart info</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/cna_save.png" alt="">
+				<figcaption>Data is saved automatically</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/cna_detail.png" alt="">
+				<figcaption>View chart details</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/cna_pdf.png" alt="">
+				<figcaption>Produce PDF of chart for print</figcaption>
+			</figure>
+
+			<h4 id="workroom">Workroom</h4>
+			<p>Timecards and labor tracking</p>
+			<figure>
+				<img src="/images/workroom_01.png">
+				<figcaption>Employee timecard</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/workroom_02.png">
+				<figcaption>Input daily tasks</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/workroom_03.png">
+				<figcaption>Manage projects for consistent naming</figcaption>
+			</figure>
+			<figure>
+				<img src="/images/workroom_04.png">
+				<figcaption>See and edit task details</figcaption>
+			</figure>
 			</div>
 		</section>
 	</article>
 </main>
 
 <footer>
-	<p><small>Copyright ©2021 Nathan Chapman. All rights reserved.</small></p>
+	<p><small>Copyright &copy;2021 Nathan Chapman. All rights reserved.</small></p>
 </footer>
 </body>
 </html>
